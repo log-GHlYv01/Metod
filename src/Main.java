@@ -15,7 +15,7 @@ public class Main {
 
         // 3 Задание
         fullname = "Ивынов Семён Семёнович";
-       //System.out.println("Данные ФИО сотрудника -" +fullname.replace( "ё", "e"));
+       System.out.println("Данные ФИО сотрудника -" +fullname.replace( "ё", "e"));
         String[] names = fullname.split( "");
         for (int i = 0; i < names.length; i++) {
             String name = names[i];
